@@ -2,7 +2,7 @@ import os
 from pytube import YouTube, StreamQuery, Stream
 
 
-SAVE_PATH = "C:/Users/Pancho/Downloads"
+SAVE_PATH = "C:/Users/**whatever your user is**/Downloads"
 
 def get_download_path():
     """Returns the default downloads path for linux or windows"""
